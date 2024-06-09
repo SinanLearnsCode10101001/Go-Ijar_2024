@@ -1,0 +1,558 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Quicksand";
+}
+.ss {
+font-family: 'Montserrat'; font-weight: 1000; padding: 0;
+ margin: 0;
+}
+
+body {
+overflow-y: scroll; /* Always show scrollbar */
+}
+
+.overlay, .logoutModal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  z-index: 1000;
+}
+
+.overlay{
+  background: rgba(49,49,49,0.8);
+
+}
+
+.book-now-overlay{
+  background: rgba(49,49,49,0.6);
+}
+
+.logout-modal-content {
+  position: absolute;
+  top: 7em;
+  right: 0;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+
+/* Navbar */
+.navbar {
+background-color: rgba(231,246,229,255);
+position: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-weight: bold;
+z-index: 9999;
+box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 0 11em;
+height: 3.5em;
+width: 100%;
+}
+
+.lol {
+  position: relative;
+  width: 100%;
+  top: 0em;
+  left: 0em;
+  margin:0;
+  border: 1px solid black;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 0.5em;
+  /* height: 5em; */
+
+
+}
+.logo {
+height: 39px;
+width: 110px;
+}
+
+.links li{
+list-style: none;
+text-decoration: none;
+cursor: pointer;
+display: inline-block;
+padding: 0px 30px ;
+font-size: 17px;
+}
+
+a{
+text-decoration: none;
+/* color: black  */
+}  
+
+.sign_up, .login, .submit, .book, .book_small, .navtohome, .default{
+font-family: "Quicksand";
+border: none;
+cursor: pointer;
+background-color: rgb(88,100,29);
+color:white;
+font-size: 15px;
+border-radius: 15px;
+height: 2.5em;
+width: 5em;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid black;
+}
+
+
+
+
+.sign_up:hover, .login:hover, .submit:hover, .book:hover, .default:hover { background-color: rgba(88,100,29,0.7) }
+/* 
+.navtohome {
+
+} */
+
+.error_message {
+  color: red;
+}
+
+.buttons_navbar {
+justify-content: space-between;
+display: flex;
+width: 10em;
+}
+
+.buttons_spacing {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+/* ChatBox */
+.chatBox {
+position: fixed;
+background-color: rgba(231,246,229,255);
+box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 100px;
+width: 75px;
+height: 75px;
+top: 43em;
+right: 3.3em;
+cursor: pointer;
+border: 1px solid black;
+z-index: 2000;
+
+
+}
+
+.chatbox_logo { 
+position: relative;
+display: flex;
+margin: auto;
+top: 0.5em;
+width: 50px; height: 50px }
+
+/* Home page styles */
+
+.home_body{ padding:2.5em 9em; height: 700em}
+
+.economy_body, .default_body{ padding:10em 9em;}
+
+.vehicle_details_body{ padding:5em 9em;}
+
+.sss{
+  font-size: 0.6em;
+}
+
+.ssss{
+  font-size: 0.4em;
+  color: grey;
+  /* margin-top: 1.5em;  */
+}
+
+.gg{
+  text-align: left;
+  font-size: 0.6em;
+  margin-top: 1em; 
+
+}
+
+.title_home {text-align: center;position: relative;font-size: 4.3em; display: block; width:100%; font-family: 'Quicksand';
+font-weight: bold;}
+
+
+
+.subtitle { color: rgba(88,100,29,0.8); margin-bottom: 1em; margin-top: 1em }
+
+
+
+
+
+.vehicle_categories {
+position: relative;
+margin-top: 7em;
+width:100%;
+z-index: 1;
+}
+
+.spacing_container{ width: 100%; display: flex; justify-content: space-between; flex-wrap: wrap;}
+
+.shhh {display: inline-block; justify-content: space-between; }
+
+.container_vehicle_categories {
+width: 292px;
+height: 320px;
+background-color: rgba(231,246,229,255);
+box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 10px;
+margin:  10px 0;
+cursor: pointer;
+border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.vehicle_category_images {
+width: 100%;
+height: 70%;
+border-radius: 10px;
+border-bottom-left-radius: 0 ;
+border-bottom-right-radius: 0 ;
+margin-bottom: 15px;
+}
+
+.vehicle_category_title {
+width: 100%;
+font-size: 1.2em;
+text-align: center;
+color: black;
+}
+
+.vehicle_category_desc {
+color: grey;
+width: 100%;
+text-align: center;
+font-weight: 500;
+}
+
+
+.destinations, .equipment { margin-top: 5em; width: 100% }
+
+.container_destinations_categories {
+width: 212px;
+height: 240px;
+background-color: rgba(231,246,229,255);
+box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.3);
+cursor: pointer;
+}
+
+.destination_images {
+display: block;
+width: 80%;
+height: 60%;
+margin: 20px auto;
+border-radius: 40em;
+box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border: 3px solid black;
+}
+
+
+.container_rental_vehicle {
+  width: 292px;
+  height: 370px;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin:  25px 0;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.rental_vehicle_images {
+  display: block;
+  width: 80%;
+  height: 50%;
+  margin: 20px auto;
+  border-radius: 40em;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid black;
+}
+
+.container_rental_vehicles_desc{
+  width: 100%;
+}
+
+
+.chatbot-outer-container {
+  border: 1px solid black;
+  width: 17.3em; 
+  position: fixed;
+  z-index: 2000;
+  right: 9em;
+  top: 12em;
+ 
+}
+
+.react-chatbot-kit-chat-inner-container{
+  overflow-x: hidden;
+}
+
+.react-chatbot-kit-chat-input {
+  background-color: rgba(231,246,229,255);
+
+
+}
+
+
+.rental_vehicles_desc {
+  list-style: none;
+  padding: 0;
+}
+
+.rental_vehicles_desc li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.desc_label {
+  font-weight: bold;
+  width: 100px; /* Adjust the width as needed */
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px; /* Add margin for spacing */
+}
+
+.rental_vehicle_price {
+  font-size: 1em;
+  font-weight: bold;
+  color: white; /*Adjust color as needed*/
+  /* color: black; */
+  margin-top: 7px;
+  /* font-family: 'Montserrat'; */
+  padding-left: 2em;
+}
+
+.book_div{
+  width: 100%;
+  text-align: center;
+}
+
+
+.price_book{
+  width:100%;
+  text-align: center;
+  background-color: brown;
+  height: 1.5em;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.container_vehicle_details{
+  display: flex;
+}
+
+.vehicle_details {
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  background-color: rgba(231,246,229,255);
+  border-radius: 30px;
+  padding: 30px;
+  margin-left: 2em;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.vehicle_specs {
+  text-align: center;
+  margin-bottom: 1em;;
+  color: rgba(88,100,29,0.8);
+}
+
+.vehicle_details_img{
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  border: 5px solid black;
+  border-radius: 50px;
+  width: 30em;
+  height: 385px;
+}
+
+.desc_label_details {
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 100px; /* Adjust the width as needed */
+  display: inline-block;
+  text-align: left;
+  margin-right: 40px; /* Add margin for spacing */
+}
+
+.desc_value_details {
+  font-size: 1.1em;
+  font-weight: 550;
+}
+
+.price {
+  color: brown;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+.book {
+  width: 100%;
+}
+
+/* Sign-up & Log-in page */
+
+.signup_and_login_page {
+  padding-top: 5em;
+}
+
+.form_container {
+  /* background-color: aliceblue; */
+  background-color: rgba(231,246,229,255);
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid grey;  
+
+}
+
+.signup_and_login_title {
+  color: rgba(88,100,29,1);
+  text-align: center;
+  text-decoration: underline;
+}
+
+label{
+  color: rgba(88,100,29,1);
+  text-align: left;
+  font-size: 17px;
+  line-height: 2em;
+  width: 100%;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  padding: 0 35px;
+  text-align: left;
+  line-height: 2em;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 11px;
+  border: none;
+  /* box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+
+/* To remove arrows from number input field */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+
+
+.checkbox-container{
+  display: inline-block;
+}
+
+.checkbox-container label {
+  padding:20px;
+}
+
+.form_container .submit {
+  width: 100%
+}
+
+.terms-conditions {
+  justify-content: justify;
+  font-size: 1.5em;
+}
+
+.envelope_icon {
+  position: absolute;
+  top: 15.15em;
+  left: 39em;
+  color: rgba(88,100,29,1)
+}
+
+.lock_icon {
+  position: absolute;
+  top: 20.4em;
+  left: 39em;
+  color:rgba(88,100,29,1);
+}
+
+.a {
+  position: absolute;
+  right: 2em;
+}
+
+.b {
+  position: absolute;
+  right: 10px;
+  top: 92em;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.pdf-container {
+  width: 794px;
+  height: 1123px;
+  border: 2px solid black;
+  padding: 4em 3em;
+}
+
+.PDF-table {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.PDF-table-rows {
+  border: 1px solid black;
+  padding: 7px 20px;
+}
+
+.search-filter-container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgba(231, 246, 229, 1);
+  padding: 10px;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 4em;
+  margin-top: 3em;
+
+}
+
+
+.search-bar, .filter-dropdown {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* .search-bar {
+  flex-grow: 1;
+  margin-right: 10px;
+} */
+
+/* .filter-dropdown {
+  flex-shrink: 0;
+} */

@@ -1,0 +1,190 @@
+{
+    "destinations": [
+      {
+        "title": "Muttrah Souq",
+        "description": "Muttrah Souq is one of the oldest marketplaces in Oman, known for its vibrant atmosphere and a wide array of traditional Omani goods.",
+        "image": "MuttrahSouq",
+        "type": "Souqs"
+      },
+      {
+        "title": "Sultan Qaboos Grand Mosque",
+        "description": "The Sultan Qaboos Grand Mosque is an iconic landmark in Muscat, featuring stunning architecture and one of the largest chandeliers in the world.",
+        "image": "SultanQabusMasjid",
+        "type": "Mosques"
+      },
+      {
+        "title": "Wadi Shab",
+        "description": "Wadi Shab is a popular outdoor destination in Oman, offering beautiful hiking trails, crystal-clear pools, and breathtaking waterfalls.",
+        "image": "WadiShab",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Nizwa",
+        "description": "Nizwa is a historic city in Oman, known for its impressive fort, traditional souq, and vibrant cultural scene.",
+        "image": "Nizwa",
+        "type": "Towns & cities"
+      },
+      {
+        "title": "Bahla Fort",
+        "description": "Bahla Fort is a UNESCO World Heritage Site, renowned for its impressive structure and historical significance in Omani culture.",
+        "image": "BahlaFort",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Al Hazm Castle",
+        "description": "Al Hazm Castle is a stunning example of Omani military architecture, featuring beautifully preserved rooms and an extensive collection of historical artifacts.",
+        "image": "HazmCastle",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Salalah",
+        "description": "Salalah, known for its lush green landscapes during the Khareef season, offers beautiful beaches, waterfalls, and rich cultural heritage.",
+        "image": "Salalah",
+        "type": "Towns & cities"
+      },
+      {
+        "title": "Wahiba Sands",
+        "description": "Wahiba Sands is a vast desert in Oman, offering an authentic experience of the Arabian desert with its rolling dunes and Bedouin camps.",
+        "image": "WahibaSands",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Bait Al Zubair",
+        "description": "Bait Al Zubair is a museum in Muscat showcasing a private collection of Omani artifacts, offering insight into the country's rich cultural heritage.",
+        "image": "bait_al_zubair.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Jebel Akhdar",
+        "description": "Jebel Akhdar, part of the Al Hajar Mountains, is known for its stunning terraced orchards, rose gardens, and hiking trails.",
+        "image": "jebel_akhdar.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Musandam Fjords",
+        "description": "The Musandam Fjords, also known as the 'Norway of Arabia', offer breathtaking scenery, dolphin watching, and dhow cruises.",
+        "image": "musandam_fjords.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Royal Opera House Muscat",
+        "description": "The Royal Opera House Muscat is Oman's premier venue for musical arts and culture, showcasing world-class performances.",
+        "image": "royal_opera_house_muscat.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Al Mughsail Beach",
+        "description": "Al Mughsail Beach in Salalah is known for its pristine white sand, crystal-clear waters, and dramatic cliffs.",
+        "image": "al_mughsail_beach.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Bimmah Sinkhole",
+        "description": "Bimmah Sinkhole is a natural limestone crater filled with clear blue-green water, a popular spot for swimming and picnicking.",
+        "image": "bimmah_sinkhole.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Al Jalali and Al Mirani Forts",
+        "description": "The Al Jalali and Al Mirani Forts in Muscat are iconic landmarks offering panoramic views of the city and the sea.",
+        "image": "al_jalali_al_mirani_forts.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Wadi Bani Khalid",
+        "description": "Wadi Bani Khalid is a picturesque oasis in the desert, featuring lush palm groves, clear pools, and a cave system.",
+        "image": "wadi_bani_khalid.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Ras Al Jinz Turtle Reserve",
+        "description": "Ras Al Jinz Turtle Reserve is a protected area where you can witness the nesting of green turtles in their natural habitat.",
+        "image": "ras_al_jinz_turtle_reserve.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Samail Castle",
+        "description": "Samail Castle is a historic fortress located in the town of Samail, showcasing traditional Omani architecture.",
+        "image": "samail_castle.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Al Hoota Cave",
+        "description": "Al Hoota Cave is a stunning natural wonder, featuring an underground lake and impressive stalactites and stalagmites.",
+        "image": "al_hoota_cave.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Jabrin Castle",
+        "description": "Jabrin Castle is a beautifully restored historic fort, known for its intricate ceiling paintings and educational exhibits.",
+        "image": "jabrin_castle.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Khasab Castle",
+        "description": "Khasab Castle in Musandam is a picturesque fortress offering insights into the region's history and stunning views of the surrounding area.",
+        "image": "khasab_castle.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "The National Museum",
+        "description": "The National Museum in Muscat offers a comprehensive look at Oman's rich history and cultural heritage through a variety of exhibits.",
+        "image": "the_national_museum.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Qurum Beach",
+        "description": "Qurum Beach is a popular destination in Muscat, offering long stretches of sand, clear waters, and a vibrant promenade.",
+        "image": "qurum_beach.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Wadi Darbat",
+        "description": "Wadi Darbat in Salalah is known for its stunning waterfalls, lush greenery, and opportunities for boating and picnicking.",
+        "image": "wadi_darbat.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Majlis Al Jinn Cave",
+        "description": "Majlis Al Jinn Cave is one of the largest underground chambers in the world, offering a unique adventure for experienced spelunkers.",
+        "image": "majlis_al_jinn_cave.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Al Alam Palace",
+        "description": "Al Alam Palace is the ceremonial palace of Sultan Qaboos, known for its striking architecture and beautiful gardens.",
+        "image": "al_alam_palace.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Mirbat",
+        "description": "Mirbat is a historic coastal town known for its ancient architecture, beautiful beaches, and vibrant local culture.",
+        "image": "mirbat.jpg",
+        "type": "Towns & cities"
+      },
+      {
+        "title": "Ras Madrakah",
+        "description": "Ras Madrakah is a remote and pristine beach offering stunning coastal scenery and opportunities for camping and fishing.",
+        "image": "ras_madrakah.jpg",
+        "type": "Natural Attractions"
+      },
+      {
+        "title": "Al Baleed Archaeological Park",
+        "description": "Al Baleed Archaeological Park in Salalah is a UNESCO World Heritage Site featuring the ruins of an ancient city and a museum.",
+        "image": "al_baleed_archaeological_park.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Taqah Castle",
+        "description": "Taqah Castle is a historic fortress in Salalah, known for its well-preserved architecture and cultural exhibits.",
+        "image": "taqah_castle.jpg",
+        "type": "Cultural Heritage Sites"
+      },
+      {
+        "title": "Qalhat",
+        "description": "Qalhat is an ancient city and UNESCO World Heritage Site, offering a glimpse into Oman's rich maritime history.",
+        "image": "qalhat.jpg",
+        "type": "Cultural Heritage Sites"
+      }
+    ]
+  }
